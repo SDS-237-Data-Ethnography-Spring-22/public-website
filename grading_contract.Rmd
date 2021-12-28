@@ -1,0 +1,137 @@
+---
+title: "Portfolio Assessment"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r imports, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(bsplus)
+library(htmltools)
+standards <- read.csv("data/standards.csv")
+source("R/buttons.R", local = knitr::knit_global())
+```
+
+<div class="alert alert-dismissible alert-info">
+  This grading system is adapted from \"The Learning Record — A Reference Guide\" by Dr. Seán McCarthy, and specifically a version modified by Dr. Ali Kenner, Center for STS at Drexel University. This work is licensed under a <a class="white-link" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</div>
+
+This course will be graded using a portfolio-style assessment system. This means that you will have an opportunity to gather evidence, evaluate, and report on your progress and achievement in this course and ultimately propose to me the grade you believe you deserve.
+
+I've experimented with a few alternative grading systems, and I'm particularly excited to pilot this system this semester as I believe it aligns with my overarching goals for the course. In this course I am less concerned with your ability to come to a specific answer, to master certain procedures, or to produce standardized deliverables. I'm more concerned with the extent to which this course enables you become more perceptive to data environments, to deepen your critical thinking about data's cultural meanings, to experiment with your thinking and writing, and to grapple with ethical dilemmas. There's always room for strengthening these thinking modes further; in fact, every time I teach this course, I find that my own ability to think critically about data deepens through classroom discussions and my reading of student work.
+
+With this in mind, I consider a portfolio-based assessment system to be much more appropriate than traditional grading systems in this course because it prioritizes the degree of your learning and progress rather than your performance on tests or the quality of your deliverables. To summarize:
+
+* This system emphasizes learning and growth over achievement.
+* This system encourages you to reflect on the development of your thinking and communication skills and empowers you to advocate for the grade you believe you deserve.
+* This system promotes equity. Students aren't penalized for not entering the course with the same experience or background knowledge as their colleagues. 
+* This system invites you to experiment with your writing. Rather than focusing on what you think I want out of your assignments or "writing to the rubric," this system is designed to empower you to take more risks. 
+
+## How will this system work?
+
+### Gathering Data
+
+Throughout the semester, as you engage in classroom activities, work on course assignments, and collaborate with your classmates, you will also be working to reflect on and gather evidence that indicates the development of your knowledge, skills, thinking, and engagement in the course. You will archive all of this evidence, including formal assignments, informal work (notes, images, etc.), and brief reflections on your learning in a personal GitHub repository that will serve as the primary infrastructure for your portfolio. 
+
+Starting in the second week of the course, you will be expected to briefly detail your observations about the development of your learning that week in the issue queue of your GitHub repository. All independent course assignments will also be submitted to this repository, and I'll invite you to submit and organize additional materials that demonstrate your learning. In gathering these materials, you will have the opportunity to narrate how your learning in the course developed and reflect on how it relates to your broader goals. 
+
+### Analyzing Data
+
+Both mid-semester and at the end of the semester, you will write a detailed reflection in about 500-600 words, indicating how certain evidence that you curated in your portfolio demonstrates growth in each of the five course learning dimensions. The five learning dimensions are as follows:
+
+<div class="panel panel-danger"><div class="panel-heading">Knowledge and Understanding</div><div class="panel-body">This dimension refers to the development of your ability to recall, define, explain, apply, and synthesize course concepts and ideas. Primary course concepts include:
+
+```{r, results='asis'}
+literacy_standards <- standards %>% 
+    filter(type == "literacy") %>%
+    select(standard_id, standard, type) %>%
+    arrange(standard_id)
+
+print_standards_buttons(literacy_standards)
+```
+    </div>
+</div>
+
+<div class="panel panel-success"><div class="panel-heading">Data Ethnography Methods</div><div class="panel-body">This dimension refers to the development of your ability to identify, implement, and critique the research methods taught in this course. Principal methods in this course include: 
+
+```{r, results='asis'}
+methods_standards <- standards %>% 
+    filter(type == "method") %>%
+    select(standard_id, standard, type) %>%
+    arrange(standard_id)
+
+print_standards_buttons(methods_standards)
+```
+    </div>
+</div>
+
+<div class="panel panel-info"><div class="panel-heading">Skills and Competencies</div><div class="panel-body">This dimension refers to the development of your ability to execute and evaluate further opportunities for growth in the skills and competencies engaged in this course. Skills practiced in this course include: 
+
+```{r, results='asis'}
+competency_standards <- standards %>% 
+    filter(type == "competency") %>%
+    select(standard_id, standard, type) %>%
+    arrange(standard_id)
+
+print_standards_buttons(competency_standards)
+```
+    </div>
+</div>
+
+<div class="panel panel-warning"><div class="panel-heading">Critical Thinking</div><div class="panel-body">This dimension refers to the development of your ability to perceive the world in new ways, interpret cultural meaning and import, situate your own perspectives, communicate complexity, and grapple with issues that don't have easy solutions. Critical modes of thinking engaged in this course include: 
+
+```{r, results='asis'}
+critical_standards <- standards %>% 
+    filter(type == "critical-thinking") %>%
+    select(standard_id, standard, type) %>%
+    arrange(standard_id)
+
+print_standards_buttons(critical_standards)
+```
+    </div>
+</div>
+
+<div class="panel panel-primary"><div class="panel-heading">Collective Thinking and Collaborative Engagement</div><div class="panel-body">This dimension refers to the development of your ability to recognize a diversity of perspectives, learn from others, and contribute to the functioning of a reflective, collaborative learning environment. Opportunities for cooperative engagement include:
+
+* Consistently contributing to Slack discussions
+* Submitting thoughtful, critical reflections in Perusall
+* Fostering discussion in the classroom
+* Ensuring equitable divisions of labor and support among final project group members
+
+In your write-up, you should list each of the learning dimensions as a sub-heading and beneath that heading, write a paragraph responding to that dimension. Each paragraph should present exactly one central argument regarding how you progressed along that learning dimension, and I will ask that you **bold** the sentence where you indicate that central argument. Following this, you should reference *specific* examples from your portfolio that support the argument, providing hyperlinks and embedding images where appropriate. Reasoning should be provided as to how the evidence supports your central argument. Both the mid-semester and the final write-up will be written in RMarkdown and submitted to your personal portfolio GitHub repo. 
+    </div>
+</div>
+
+### Arguing for your Grade
+
+At the end of the semester, based on your analysis of your learning, you will have an opportunity to argue for the grade that you believe you deserve in the course. You will submit this argument as a component of your final learning reflection write-up.
+
+#### Grade Breakdown
+
+| Grade | Description |
+|:-:|--------|
+| A | Outstanding engagement in both in-class and virtual discussions and activities; All minimum assignment submissions met, consistently demonstrating a high quality of on-time work; Evidence of substantial growth in all of the course's learning dimensions; Portfolio demonstrates activity that goes well beyond the course's minimum assignment submissions  |
+| B | Excellent engagement in classroom discussions and activities; All minimum assignment submissions met, showcasing a high quality of on-time work; Evidence of substantial growth in several of the course's learning dimensions   |
+| C | Good engagement in classroom discussions and activities; All minimum assignment submissions met, showcasing an acceptable quality of on-time work; Evidence of some growth in some of the course's learning dimensions  |
+| D | Limited engagement in classroom discussions and activities; Some minimum assignment submissions met, showcasing an acceptable quality of on-time work; Limited evidence of some growth in the course's learning dimensions  |
+| E | Minimal engagement in classroom discussions and activities; Few minimum assignment submissions met, showcasing a generally low quality of on-time work; No evidence of growth in the course's learning dimensions  |
+
+## FAQ
+
+```{r}
+bs_accordion(id = "FAQ") %>%
+    bs_set_opts(panel_type = "primary", use_heading_link = TRUE) %>%
+    bs_append(title = "Is the grade I argue for necessarily the grade I will recieve in this course?", content = "When reviewing your midterm and final reflection narratives, I will be assessing the strength of the evidence and analysis you've provided, along with how it supports your arguments for your grade. Assuming that you've posed your arguments effectively, you will receive the grade you argue for. However, as the instructor, I have the right to disagree with your assessment and adjust your grade accordingly.") %>%
+    bs_set_opts(panel_type = "primary") %>%
+    bs_append(title = "What do I need to do to earn an A in this course?", content = includeMarkdown("md/earning-an-a.md")) %>%
+    bs_set_opts(panel_type = "primary") %>%
+    bs_append(title = "What kind of feedback will I receive regarding my work?", content = "You will receive extensive feedback on all of your submissions (from me and from your colleagues), and you will have opportunities to revise. I will also provide rubrics for most assignments to indicate how I will evaluate your work. However, you will not receive points or an A, B, C, D, etc. on individual assignments.") %>%
+    bs_set_opts(panel_type = "primary") %>%
+    bs_append(title = "What formal assignments will be due, and what are the minimum submission requirements for assignments?", content = includeMarkdown("md/min-assignments.md")) %>% 
+    bs_set_opts(panel_type = "primary") %>%
+    bs_append(title = "What are reading annotations?", content = "Each week a selection of course readings will be posted as a single assignment on Perusall - a system for students to collaboratively annotate course readings. To earn this credit, you will be expected to post 3 quality annotations per assignment to Perusall. (Note that a single assignment can have multiple readings, but you need only submit 3 annotations total. You do not need to annotate every reading in the assignment.) A quality annotation is one in which you synthesize concepts, ask thought-provoking questions, or connect ideas to external issues. I have found that students get the most out of Perusall when they respond to each other's annotations. Annotations must be completed before class to receive credit.") 
+
+```
+

@@ -1,0 +1,78 @@
+---
+title: "Mini-Projects"
+output: rmdformats::readthedown
+---
+
+## Option 1: Interview a data professional
+
+For this assignment you will conduct a 30-minute Zoom interview with an individual for whom data figures centrally in their work. The goal of your interview will be to deepen understanding of the cultures of data work. 
+
+Identifying a data professional, scheduling an interview, and obtaining consent
+
+If you choose this assignment, it will be your responsibility to identify a data professional, reach out to them (cc'ing me), and coordinate an interview time well in advance of the project due date. Keep in mind that, while your SDS professors may be an obvious first choice, they cannot support interviews with all of the students in our course. I encourage you to think expansively about who you might interview. I'm happy to offer suggestions on identifying an appropriate person in student consultation hours. 
+
+### Preparing for the interview
+
+You should write up 10 open-ended questions in preparation for the interview. While you won't be able to cover everything in 30 minutes, you may decide to focus on asking questions that get at issues such as: 
+pathways into data work and how data expertise develops,how ideas about the role, significance, and representativeness of data form, what day-to-day interactions with data are like, how data work is valued and rewarded, how individuals perceive their sense of belonging in data communities, along with social factors that lead to feelings of exclusion,
+norms of behavior in data communities and how/when they are contested
+You may choose to write-up questions that address several of these points, or you may select one and conduct a more focused interview that unpacks a single point. 
+
+### During the interview
+
+Ask the interviewee if they are comfortable with you recording the conversation. You may record with their express permission.
+
+### Write-up
+
+Following your interview, you will write-up a 500-750 word memo describing and interpreting what was discussed throughout the conversation. 
+
+#### Criteria for completion
+
+* Student submits a document with 10 relevant interview questions developed in preparation for the interview.
+* Student writes a 500-750 word memo describing and interpreting what was discussed in the interview. 
+
+## Option 2: Participant observation of a data setting
+
+For this assignment, you will observe an event or setting in which data figures centrally. Throughout the semester, I will post ideas of events that you can observe on our #sds-237-participant-observation Slack channel.  
+
+You may attend the event either in-person of virtually. Throughout the event you should take extensive field notes (at least 6 double-spaced, typed pages) about the physical environment of the event, how people behave and interact, how people talk about and data, and more generally how data figures into the social setting. 
+
+### Write-up
+
+Following your observation, you will write-up a 500-750 word memo describing the event and offering a qualitative interpretive analysis of how the event illustrates something about the culture of data advocacy, discourse, creation, or use. 
+
+#### Criteria for completion
+
+* Student submits at least 6 double-spaced typed pages of field notes taken during the event
+* Student writes a 500-750 word memo describing and interpreting the event. 
+
+## Option 3: Cultural analysis of a classification system
+
+For this assignment, you will select a standard classification system to study and interpret through a socio-cultural lens. You will research the history of changes to the classification system and closely examine its structure.
+
+### Selecting a classification system
+
+Examples of classification systems you may select include:
+
+* schema.org
+* Standard Industrial Classification System (SIC) or the North American Industrial Classification System (NAICS)
+* Carnegie Classification of Institutions of Higher Education
+* BISAC Subject Headings List
+
+If you select a system not on this list, please DM me on Slack for approval before proceeding with the analysis. 
+
+### Analyzing the classification system
+
+You should identify five reputable sources that describe the something about the history of this classification system. Create an annotated bibliography that provides a full citation for the source and includes 2-3 sentences detailing what you learn from that source. 
+
+Then you should navigate through the classification system, reflecting on how concepts are organized and sub-organized, along with notable absences. What cultural stories does this classification system convey? How does the classification system reflect the socio-cultural conditions that when into its creation?
+
+### Write-up
+
+Following your analysis, you will write-up a 500-750 word memo describing the classification system, contexts that gave rise to its creation, the history of its changes, and the cultural stories it conveys through its structure and organization. 
+
+#### Criteria for completion
+
+* Student submits an annotated bibliography with at least 5 relevant entries. Each entry includes a full citation and 2-3 summary sentences. 
+* Student writes a 500-750 word memo describing and interpreting the classification system. All sources are properly cited in the write-up.
+

@@ -1,0 +1,4 @@
+Student consultation hours are a great opportunity for us to chat about what you're learning in the course, clarify expectations on assignments, and review work in progress. I also love when students drop in to consultation hours to request book recommendations, discuss career or research paths, or just to say hi! I encourage each student in the course to visit my office (physical or virtual) at least once this semester. If you're unable to attend my consultation hours at the regularly scheduled time, feel free to direct message me on Slack to coordinate a time. 
+
+* Mondays 2PM to 3PM, McConnell 212
+* Wednesdays 3PM to 4PM, virtual
