@@ -2,7 +2,7 @@
 
 ## About
 
-This repo organizes public-facing content for the Fall 2021 course SDS 237: Data Ethnography at Smith College (instructor: [Lindsay Poirier](https://www.smith.edu/academics/faculty/lindsay-poirier)).
+This repo organizes public-facing content for the Spring 2022 course SDS 237: Data Ethnography at Smith College (instructor: [Lindsay Poirier](https://www.smith.edu/academics/faculty/lindsay-poirier)).
 
 ### Course Description
 
@@ -10,7 +10,7 @@ Without rich documentation, quantitative data can strip away critical context ne
 
 ## License
 
-Please see [license](https://github.com/SDS-237-Data-Ethnography/SDS-237-public-website/blob/main/LICENSE) file for details.
+Please see [license](https://github.com/SDS-237-Data-Ethnography-spring-22/public-website/blob/main/LICENSE) file for details.
 
 ## Questions
 
