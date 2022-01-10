@@ -57,7 +57,7 @@ This semester we will be reading Crystal Biruk's [**Cooking Data: Culture and Po
 
 ## Assessment
 
-This course will be graded via a [portfolio-based assessment system](grading_contract.html).
+This course will be graded via a [grading contract](grading_contract.html).
 
 ## Course Policies, Expectations, and Support
 

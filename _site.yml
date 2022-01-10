@@ -19,9 +19,11 @@ navbar:
       href: index.html
     - text: "Assessment"
       href: grading_contract.html
+    - text: "Learning Dimensions"
+      href: learning_dimensions.html
     - text: "Schedule"
       href: schedule.html
   right: 
     - icon: fa-github fa-lg
-      href: https://github.com/SDS-237-Data-Ethnography-Spring-22/
+      href: https://github.com/SDS-237-Data-Ethnography/
 
