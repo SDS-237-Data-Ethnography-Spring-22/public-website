@@ -32,6 +32,7 @@ standards <- read.csv("data/standards.csv")
 topic_standards <- read.csv("data/topic_standards.csv")
 writing_assignments <- read.csv("data/writing_assignments.csv")
 project_assignments <- read.csv("data/project_assignments.csv")
+announcements <- read.csv("data/announcements.csv")
 
 required_reading[required_reading == ""] <- NA
 optional_reading[optional_reading == ""] <- NA
@@ -39,6 +40,7 @@ standards[standards == ""] <- NA
 topic_standards[topic_standards == ""] <- NA
 writing_assignments[writing_assignments == ""] <- NA
 project_assignments[project_assignments == ""] <- NA
+announcements[announcements == ""] <- NA
 
 topic_standards <- 
   topic_standards %>%
@@ -76,6 +78,10 @@ for (i in 1:nrow(topics)){
   cat("#### Optional Further Reading")
   cat("\n")
   print_further_reading(todays_topic$topic_abbr[1])
+  cat("\n")
+  cat("#### Announcements")
+  cat("\n")
+  print_today_announcements(todays_topic$topic_abbr[1])
   cat("\n")
 }
 ```
