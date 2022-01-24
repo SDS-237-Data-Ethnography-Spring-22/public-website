@@ -40,6 +40,10 @@ knitr::include_graphics("https://www.smith.edu/sites/default/files/styles/img-fa
 
 I am a cultural anthropologist that studies how civic data gets produced, how communities think about and interface with data, and how data infrastructure can be designed more equitably. My Ph.D. is in an interdisciplinary discipline called Science and Technology Studies - a field that studies the intricate ways science, technology, culture, and politics all co-constitute each other. I work on a number of collaborative research projects that leverage public data to deepen understanding of social and environmental inequities in the US, while also qualitatively studying the politics behind data gaps and inconsistencies. As an instructor, I prioritize active learning and often structure courses as flipped classrooms. You can expect in-class time to predominantly involve group activities and live problem-solving exercises.
 
+## Pedagogical Partner
+
+Rose Evard (she/her) is a ’23 Biology and Statistics & Data Science double major who took SDS 237 last semester.  She’s passionate about bringing data science principles and strategies into her biology research.  She has been involved in various forms of student support, including working as a Data Assistant and SDS Tutor last semester.  Rose can provide technical guidance for GitHub and R, as well as advice on how to approach the course and assignments.
+
 ### Getting in Touch
 
 ```{r}
