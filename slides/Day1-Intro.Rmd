@@ -28,10 +28,6 @@ options(htmltools.dir.version = FALSE)
 sds::mono_light_smith()
 ```
 
-
-class: center, middle
-# Statistical & Data Sciences
----
 # What is ethnography?
 
 .pull-left[
@@ -56,12 +52,6 @@ class: center, middle
 
 ---
 
-# What is data ethnography?
-
-* 
-
----
-
 # What fields of research inform data ethnography?
 
 * Science and Technology Studies (STS)
@@ -77,7 +67,7 @@ class: center, middle
 ---
 
 class: center, middle
-# What is the professor?
+# Who is the professor? Who is the pedagogical partner?
   
 ---
 
@@ -100,3 +90,26 @@ class: center, middle
   * questions you are left with
   
 ]
+
+---
+
+
+# Syllabus Review
+
+* Policies
+* Grading Contract
+* Course Website
+* Moodle
+* Perusall
+* Slack
+
+---
+
+
+# For Wednesday
+
+* Reading and annotations in Perusall
+* Review Syllabus
+* Install Slack Desktop and set notifications
+* Fill out first day of class questionnaire
+
