@@ -7,7 +7,7 @@ author: |
   [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
   </span>
 date: |
-  Fall 2022<br/>
+  Spring 2022<br/>
   `r sds::img_logo(width = 64)`
 output:
   sds::moon_reader:
