@@ -7,7 +7,7 @@ author: |
   [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
   </span>
 date: |
-  Fall 2022<br/>
+  Spring 2022<br/>
   `r sds::img_logo(width = 64)`
 output:
   sds::moon_reader:
@@ -66,8 +66,21 @@ class: center, middle
   
 ---
 
-class: center, middle
-# Who is the professor? Who is the pedagogical partner?
+# Who is the professor? Why is an anthropologist teaching data science?
+
+.pull-left[
+* Please call me Lindsay (preferred), Professor Poirier, or Dr. Poirier
+* Previously Assistant Professor of Science and Technology Studies at UC Davis
+* Lab Manager at [BetaNYC](https://beta.nyc/)
+* M.S./Ph.D. in Science and Technology Studies from Rensselaer Polytechnic Institute
+* B.S. in Information Technology and Web Science from Rensselaer Polytechnic Institute
+* Dancing, crafting, cooking, re-watching the same TV series over and over again.
+* I have a *very* spunky dog Madison who you may hear on Zoom calls. 
+]
+
+.pull-right[
+![](img/canyon.jpg)
+]
   
 ---
 
