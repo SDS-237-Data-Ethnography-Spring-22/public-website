@@ -1,7 +1,9 @@
 topic_id,topic_abbr,project_assignment,submission,link
 1,introductions,,,
 2,heg-backdrops,,,
-3,metaphors,Complete Course Infrastructure Set-Up by following instructions in the `setting-up-r-environment` directory in your GitHub portfolio,yes,
+3,metaphors,Create a GitHub account if you don't have one,yes,
+3,metaphors,Click on the Student Portfolio GitHub Repo in Moodle to create your portfolio,yes,
+3,metaphors,Complete course infrastructure set-up by following instructions in the `setting-up-r-environment` directory in your GitHub portfolio,yes,
 4,binary-oppositions,,,
 5,thick-data,Establish Project Teams,yes,
 6,ethnography,,,
