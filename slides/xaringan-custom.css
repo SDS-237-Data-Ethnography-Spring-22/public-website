@@ -35,9 +35,9 @@
   --code-font-family: 'Fira Code';
   --code-font-is-google: 0;
   --base-font-size: 20px;
-  --text-font-size: 1rem;
-  --code-font-size: 0.9rem;
-  --code-inline-font-size: 1em;
+  --text-font-size: 1.3rem;
+  --code-font-size: 1.2rem;
+  --code-inline-font-size: 1.3em;
   --header-h1-font-size: 2.75rem;
   --header-h2-font-size: 2.25rem;
   --header-h3-font-size: 1.75rem;
@@ -78,7 +78,7 @@ h1, h2, h3 {
 }
 .remark-slide-content {
   background-color: var(--background-color);
-  font-size: 1rem;
+  font-size: var(--text-font-size);
   background-image: url(https://www.smith.edu/sites/all/themes/smith_edu/images/logo-footer-2x.png);
   background-size: 200px;
   background-position: 3% 97%;
