@@ -1,4 +1,4 @@
-﻿topic_id,topic_abbr,reading,chapter
+topic_id,topic_abbr,reading,chapter
 1,introductions,,
 2,heg-backdrops,boydCriticalQuestionsBig2012,
 3,metaphors,levyCloudOtherDangerous2015,
@@ -14,13 +14,13 @@
 11,infrastructure,starEthnographyInfrastructure1999,
 12,classifications,bowkerKindnessStrangersKinds1998,
 13,ghost-work,grayGhostWorkHow2019,Chapter 1
-14,expertise,birukCookingDataCulture2018,Chapter 2
+14,expertise,
 15,incentives,,
-16,transactions,birukCookingDataCulture2018,Chapter 3
+16,transactions,
 17,rituals,ribesDataBiteMan2013,
-18,cooking,birukCookingDataCulture2018,Chapter 4
+18,cooking,
 19,mobilizing,ottingerNewVoicesNew2011,
-20,circulation,birukCookingDataCulture2018,Chapter 5
+20,circulation,
 21,citizen-science,gabrysJustGoodEnough2016,
 22,activism,liboironDisasterDataData2015,
 23,ignorance,mimimimimiMissingDataSets2021,
