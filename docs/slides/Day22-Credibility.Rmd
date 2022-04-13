@@ -1,0 +1,85 @@
+---
+title: "Day Twenty-Two: Credibility"
+subtitle: "SDS 237: Data Ethnography"
+author: |
+  Lindsay Poirier<br/>
+  <span style = 'font-size: 70%;'>
+  [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
+  </span>
+date: |
+  Spring 2022<br/>
+  `r sds::img_logo(width = 64)`
+output:
+  sds::moon_reader:
+    lib_dir: libs
+    css: xaringan-custom.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE}
+# sds::duo_smith()
+sds::mono_light_smith()
+```
+
+
+class: center, middle
+# Take out a sheet of paper and draw your "map of science". Where would you place truth or facts? What are the other features on the map? Where is art and religion? What makes science separate from other features on the map? Can you think of stakeholders who might disagree with your map of science? Why?
+
+---
+
+# Boundary Work
+
+* Acknowledges the lack of stable criteria for demarcating science from non-science. 
+* Different people justify what makes something scientific vs unscientific differently.
+* As *credibility contests* emerge, people make claims based on their own maps of science.
+* Culturally chart the boundaries around what we consider scientific. 
+
+---
+
+class: center, middle
+# Science is a symptom of the legitimate power to decide reality - its edges and contents disputed, moved all over the place, settled here and there as decisions about truthful and reliable claims are acted upon ... Representations of science - where it is and where it is not - have less to do with the cultural realities they supposedly depict, and more to do with the cultural realities they sustain. (Gieryn, *Cultural Boundaries of Science*)
+
+---
+
+class: center, middle
+# Who gets seen as a legitimate claims-maker in science, and whose voices are often denied a seat at the table?
+
+---
+
+# Love Canal
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TSPA3LADFnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# Deficit Model
+
+* Belief that the reason people distrust science is because they lack knowledge
+* Often casts scientific illiteracy as both a technical problem and a moral problem
+* Presumed solution to increasing public trust in science is to teach more science
+
+> STS rejects the deficit model…
+
+* Ignore public’s situated knowledge
+* Suggests knowledge is context-free
+* Doesn’t get at the root of distrust
+
+---
+
+# Social Movement Theory
+
+* Sociological research that studies how social movements form, operate, sustain, and fizzle out
+* Political Process Theory: suggests that certain political formations enable social movements to form and operate
+* Resource Mobilization Theory: suggests that access to certain resources enable social movements to mobilize
+* Framing: Suggests that collective ideologies and values bring social movements into fruition
+
+---
+
+
