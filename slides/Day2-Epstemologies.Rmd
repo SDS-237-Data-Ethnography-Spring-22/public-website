@@ -90,12 +90,14 @@ class: center, middle
 
 # Feminist Epistemologies
 
-.pull-left[* All knowledge is **embodied**
+.pull-left[
+
+* All knowledge is **embodied**
   * Contrast with disembodied knowledge - i.e. not tied to a specific body
 * Bodies are situated in certain social positions and have a finite point of view (Haraway 1991)
   * Critique of the "unmarked body," the "God trick," or the "view from nowhere"
 * Knowledge is tied to particular standpoints 
-  * our experiences, what we’ve read, our education, our social positions, and what our bodies enable us to do, see, hear, taste, touch, and smell
+  * Our experiences, what we’ve read, our education, our social positions, and what our bodies enable us to do, see, hear, taste, touch, and smell
   * Factors are innumerable and unique to every person
 ]
 

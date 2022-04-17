@@ -81,7 +81,7 @@ class: center, middle
 ---
 
 class: center, middle
-# How do we decide who has "expertise" considered to have expertise?
+# How do we decide who is considered to have expertise?
 
 ---
 
@@ -96,10 +96,12 @@ class: center, middle
 
 .pull-right[
 
+In her history of the medical activism by the Black Panthers, Alondra Nelson discusses how one way the Black Panthers enacted their expertise was in their choice to wear white lab coats. 
+
 ![](https://miro.medium.com/max/1400/1*nHGBZh5p8yNz7nAjTsvCew@2x.jpeg)
 > Sickle cell anemia testing. Oakland, Calif. 1972. credit NY Times
 
-> In her history of the medical activism by the Black Panthers, Alondra Nelson discusses how one way the Black Panthers enacted their expertise was in their choice to wear white lab coats. 
+
 
 ]
 
